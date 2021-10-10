@@ -117,4 +117,26 @@ img{
     gap: 2rem;
 }
 
+/** Bloque Nosotros **/
+
+.sobre-nosotros{
+    background-image: linear-gradient(to right, transparent 50%, var(--colorPrimario) 50%, var(--colorPrimario) 100% ), url('../img/nosotros.jpg');
+    padding: 10rem 0;
+    background-repeat: no-repeat;
+    background-size: 100%, 120rem;
+    background-position: left center;
+    margin-top: 5rem;
+}
+
+.sobre-nosotros-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 8rem
+}
+
+.texto-nosotros{
+    grid-column: 2 / 3;
+    color: var(--blanco);
+}
+
 
