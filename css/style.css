@@ -100,6 +100,11 @@ img{
     justify-content: space-between;
     align-items: center;
     padding: 2rem 0;
+    transition: color .3s ease-in;
+}
+
+.nav-principal a:hover{
+    color: var(--colorPrimario);
 }
 
 .hero{
@@ -240,5 +245,36 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/** Footer **/
+
+.site-footer{
+    border-top: 0.1rem solid var(--grisPrimario);
+    margin-top: 5rem;
+    padding-top: 5rem;
+}
+
+.site-footer h3{
+    margin-bottom: .5rem;
+}
+
+.grid-footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.footer-menu a{
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright{
+    margin-top: 5rem;
+    text-align: center;
+    background-color: var(--grisPrimario);
+    margin-bottom: 0;
+    padding: 2rem 0;
 }
 
